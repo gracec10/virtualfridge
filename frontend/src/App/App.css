@@ -1,0 +1,143 @@
+h1 {
+  font-size:40px;
+  font-weight:600;
+  display:flex;
+  align-items: center;
+}
+
+h1 a {
+  color:#828fa2;
+  margin-top: -2px;
+}
+
+h1 img {
+  height: auto;
+  width: 38px;
+  transform: rotateY(180deg);
+  margin-right: 5px;
+}
+
+header {
+  padding:10px 30px;
+  box-shadow:2px 2px 15px 0 rgba(0,0,0,0.1);
+  display:flex;
+  justify-content: space-between;
+  background:#fff;
+  position:relative;
+  z-index:6;
+}
+
+#additem {
+  transform:rotate(0);
+  transition: all 300ms ease;
+}
+
+#additem.spin {
+  transform:rotate(135deg);
+}
+
+.tooltip {
+  padding:15px 17px;
+  font-size:20px;
+  border-radius:50%;
+  background:#ecf0f3;
+  cursor:pointer;
+}
+
+.tooltip-menu {
+  display:flex;
+}
+
+aside {
+  height:100vh;
+  width:300px;
+  position:absolute;
+  top:0;
+  padding:115px 30px 30px;
+  z-index: 1;
+  background:white;
+  
+  transition: all 300ms ease;
+  
+}
+
+aside.full-item-form {
+  left:0;
+  transform:translateX(-300px);
+  box-shadow:2px 0 15px 0 rgba(0,0,0,0.1);
+}
+
+
+aside.tooltip-aside {
+  right:0;
+  transform:translateX(300px);
+  box-shadow:-2px 0 15px 0 rgba(0,0,0,0.1);
+  position:fixed;
+}
+
+aside.full-item-form.open {
+  transform:translateX(0);
+}
+
+aside.tooltip-aside.open {
+  transform:translateX(0);
+}
+
+aside input[type="text"] {
+  display: block;
+  padding:15px 10px;
+  width:100%;
+  border:none;
+  box-shadow:0 0 15px 0 rgba(0,0,0,0.1);
+  font-size:16px;
+}
+
+aside input {
+  margin-bottom:15px;
+}
+
+aside .two-inputs input {
+  display:inline-block;
+  width:50%;
+}
+
+aside select {
+  margin-top:10px;
+  width:100%;
+  height:45px;
+  font-size:16px;
+  background:#fff;
+  border:none;
+  box-shadow:0 0 15px 0 rgba(0,0,0,0.1);
+}
+
+aside .checkboxes {
+  margin-top:30px;
+  display:flex;
+}
+
+aside .checkboxes label {
+  margin:0 15px 0 5px;
+}
+
+aside #freezer {
+  margin-right:15px;
+}
+
+aside button {
+  margin-top:10px;
+  padding:10px 20px;
+  border:none;
+  font-size:16px;
+  cursor:pointer;
+  box-shadow:0 0 15px 0 rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #bdbdbd;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}

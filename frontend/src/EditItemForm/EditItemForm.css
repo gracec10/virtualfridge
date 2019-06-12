@@ -1,0 +1,49 @@
+.list-item-buttons {
+ width:40%;
+ text-align:right;
+ opacity:0;
+ transition: all 300ms ease;
+}
+
+.list-item-buttons button {
+  margin:0;
+}
+
+.row-wrap2 {
+  display:flex;
+  align-items: center;
+  font-size:12px;
+}
+
+#save-button,
+#delete-button {
+  background:none;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  font-size:12px;
+}
+
+.expdate {
+  width:60%;
+}
+
+.expdate label {
+  font-weight:600;
+}
+
+#save-button {
+  color:green;
+}
+
+#save-button:hover {
+  background:#97cf97;
+}
+
+#delete-button {
+  color:red;
+}
+
+#delete-button:hover {
+  background:#e6c3c3;
+}

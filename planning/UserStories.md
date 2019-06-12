@@ -1,0 +1,12 @@
+## User Stories
+- User enters website
+- User sees add Item (+), the title and a lightbulb icon at top
+- User sees visual of refridgerator in center of page
+- User opens fridge
+- Within inside of fridge, there are 10 categories the user may choose from
+- Within inside of backdoor, there is a list of all the items within a/the selected category
+- User may create Item for fridge - Name, Quantity, Expiration, Category fields must be filled after clicking (+)
+- User sees homepage populate with Item immediately
+- User is able to browse categories of fridge by clicking on them
+- User is able to update Name, Quantity, Expiration of Item
+- User is able to delete an Item
