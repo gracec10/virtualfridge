@@ -16,9 +16,9 @@ For the future:
 
 
 ## Screenshots
-![fridgify-ss1](https://github.com/gracec10/fridgify/blob/master/frontend/public/images/fridgify-ss1.png) "Fridgify Screenshot 1"
-![fridgify-ss2](https://github.com/grace10/fridgify/blob/master/frontend/public/images/fridgify-ss2.png) "Fridgify Screenshot 2"
-![fridgify-ss3](https://github.com/gracec10/fridgify/blob/master/frontend/public/images/fridgify-ss3.png) "Fridgify Screenshot 3"
+![fridgify-ss1](https://github.com/gracec10/virtualfridge/blob/master/frontend/public/images/fridgify-ss1.png) "Fridgify Screenshot 1"
+![fridgify-ss2](https://github.com/grace10/virtualfridge/blob/master/frontend/public/images/fridgify-ss2.png) "Fridgify Screenshot 2"
+![fridgify-ss3](https://github.com/gracec10/virtualfridge/blob/master/frontend/public/images/fridgify-ss3.png) "Fridgify Screenshot 3"
 
 ### Schemas
 - Item
