@@ -1,10 +1,6 @@
-# Fridgify
+# Virtual Fridge
 
-Welcome to Fridgify, an online refrigerator where you can inventory what's in your actual fridge.
-
-## Overview
-
-This is Fridgify, your one stop spot for what's in your fridge. Have you ever been at a party and wanted to know if you had Kraft singles in your fridge to make grilled cheese when you get home? Well now you will! With Fridgify, you'll have a visual fridge interface to add the name, quantity, expiration date of anything in your fridge, and categorize them by food group and fridge or freezer. You'll never forget where you left that slice of ham again! 
+Welcome to my virtual fridge, an online refrigerator where you can inventory what's in your actual fridge.
 
 ### Features
 - Create, update, or delete Items with Name,  Quantity, Exp. Date, Categories and Fridge or Freezer
@@ -12,7 +8,7 @@ This is Fridgify, your one stop spot for what's in your fridge. Have you ever be
 - All content that is created/saved shows up immediately, without page refresh
 - Application is usable on mobile
 
-What we've like to add:
+For the future:
 - Animations for multiple interactions throughout the site
 - Food authors so people can keep track of who's food
 - Authentication for multiple users
