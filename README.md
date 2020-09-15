@@ -1,6 +1,7 @@
 # Virtual Fridge
 
 Welcome to my virtual fridge, an online refrigerator where you can inventory what's in your actual fridge.
+For General Assembly's coding bootcamp, Fall 2018.
 
 ### Features
 - Create, update, or delete Items with Name,  Quantity, Exp. Date, Categories and Fridge or Freezer
